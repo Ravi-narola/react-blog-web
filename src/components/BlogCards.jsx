@@ -20,7 +20,7 @@ const BlogCards = ({blogs, currentPage, pageSize, selectedCategory}) => {
             </a>
         ))  
         }
-    </div>
+    </div> 
   )
 }
 

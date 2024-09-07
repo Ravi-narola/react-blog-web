@@ -9,7 +9,7 @@ import Sidebar from '../components/Sidebar';
 const SingleBlog = () => {
     const data = useLoaderData();
     console.log(data)
-    const { title, author, content, image, reading_time, published_date } = data[0];
+    const { title, author, content, image, reading_time, published_date } = data;
     console.log(title)
     return (
         <div>
