@@ -38,7 +38,7 @@ const router = createBrowserRouter([
       {
         path: "/blogs/:id",
         element: <SingleBlog/>,
-        loader:  ({ params }) => fetch(`https://blog-json-server-ar7p.onrender.com/blogs/${params.id}`)
+        loader:  ({ params }) => fetch(`https://blog-json-server-9t91.onrender.com/blogs/${params.id}`)
       }
     ]
   },
