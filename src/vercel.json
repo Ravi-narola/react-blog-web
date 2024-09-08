@@ -1,11 +1,9 @@
 {
-    "router": [
-      { "src": "/", "dest": "/" },
-      { "src": "/blogs", "dest": "/" },
-      { "src": "/about", "dest": "/" },
-      { "src": "/contact", "dest": "/" },
-      { "src": "/services", "dest": "/" },
-      { "src": "/blogs/:id", "dest": "/" }
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/index.html"
+      }
     ]
-}
+  }
   
