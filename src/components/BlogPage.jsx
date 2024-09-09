@@ -13,7 +13,7 @@ const BlogPage = () => {
 
     useEffect(() => {
         async function fetchBlogs() {
-            let url = `https://blog-json-server-9t91.onrender.com/blogs?page=${currentPage}&limit=${pageSize}`;
+            let url = `https://blog-json-server-ten.vercel.app/blogs?page=${currentPage}&limit=${pageSize}`;
 
             // If a category is selected, add it to the request
             if (selectedCategory) {

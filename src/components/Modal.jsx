@@ -17,7 +17,7 @@ const Modal = ({ isOpen, onClose }) => {
     initialValues: formInitialValues,
     onSubmit: async (values) => {
       let respUserss = await fetch(
-        `https://blog-json-server-9t91.onrender.com/user`
+        `https://blog-json-server-ten.vercel.app/user`
       );
       let respUserBody = await respUserss.json();
 
